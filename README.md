@@ -4,7 +4,8 @@
 1. Create a simple RESTful CRUD API using the NodeJS Express framework that will implement the service as described in the Swagger file (swagger.yml).
 2. The framework must dynamically load the Swagger file to create its routes. You can load the Swagger file through https://editor.swagger.io to understand the API requirements.
 3. Feel free to add more properties in the Swagger file using the `x-*` notation to suit your needs (ie. routing requests to controllers and actions).
-4. Upload your work in a public github repository and email the link to info@pragmanila.com.
+4. You can use the provided package.json file to start off your project.
+5. Make a public fork of this repository and email the link to info@pragmanila.com.
 
 ## Requirements
 1. Implement in NodeJS Express Framework.
