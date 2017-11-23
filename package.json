@@ -1,7 +1,7 @@
 {
   "name": "humans-api-nodejs",
   "version": "1.0.0",
-  "description": "Humans API (Node JS)"
+  "description": "Humans API (Node JS)",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
