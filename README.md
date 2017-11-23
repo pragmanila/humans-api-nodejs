@@ -9,7 +9,7 @@
 ## Requirements
 1. Implement in NodeJS Express Framework.
 2. Use MongoDB for data persistence.
-3. ***Validate all inputs.*** 
+3. ***Validate all inputs.*** All input errors must be reported during a request, meaning the whole request input must be validated before sending out a respose (ie. server must respond that an email is not unique and a name is required)
   - `id` must exist when reading, updating, and deleting
   - `name` and `email` must exist when creating
   - `email` must be unique
