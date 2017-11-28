@@ -9,12 +9,13 @@
 
 ## Requirements
 1. Implement in NodeJS Express Framework.
-2. Use MongoDB for data persistence.
-3. ***Validate all inputs.*** All input errors must be reported during a request, meaning the whole request input must be validated before sending out a respose (ie. server must respond that an email is not unique and a name is required)
+2. Routes must be read from the swagger file (ie. routes are not hardcoded). 
+3. Use MongoDB for data persistence.
+4. ***Validate all inputs.*** All input errors must be reported during a request, meaning the whole request input must be validated before sending out a respose (ie. server must respond that an email is not unique and a name is required)
   - `id` must exist when reading, updating, and deleting
   - `name` and `email` must exist when creating
   - `email` must be unique
-4. Response headers and http codes must be correct.
+5. Response headers and http codes must be correct.
 
 ## Optional (but definitely an advantage)
 1. ES6
